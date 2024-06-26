@@ -24,7 +24,9 @@
   }
 
 /*Universal Icon*/
-
+::-webkit-scrollbar{
+  display: none;
+}
 /*Custom Variables*/
 
 /*Select all images*/
@@ -37,4 +39,10 @@ img{
 /*Logo*/
 img[alt='logo']{
     width: 5rem;
+}
+
+/*Wrapper*/
+:is(.wrapper){
+  display: grid;
+  grid-template-rows: auto minmax(100dvh, 100%) auto;
 }
