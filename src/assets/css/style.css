@@ -1,5 +1,6 @@
 /*Bootsrap Icon*/   
-
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*App*/
 #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -24,11 +25,29 @@
   }
 
 /*Universal Icon*/
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Custom Variables*/
+:root {
+  --primary: black;
+  --secondary: rgb(255, 255, 255);
+  --alternative: #74a57a;
+  --mainBShadow: .4vw .3vw .3vw var(--alternative);
+}
+
 ::-webkit-scrollbar{
   display: none;
 }
-/*Custom Variables*/
 
+body {
+  scroll-behavior: smooth;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*Select all images*/
 img{
     aspect-ratio: 1;
@@ -46,3 +65,9 @@ img[alt='logo']{
   display: grid;
   grid-template-rows: auto minmax(100dvh, 100%) auto;
 }
+
+/* section */
+section {
+  scroll-margin-block: 5rem;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
