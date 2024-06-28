@@ -2,7 +2,7 @@
     <div class="containeer">
         <div class="row">
             <div class="col">
-                <img class="img-fluid" src="https://simanyests.github.io/Images/images/Screenshot 2024-05-07 141157.png" alt="" loading="lazy">
+                <img class="img-fluid" src="https://simanyests.github.io/Images/images/IMG-20231017-WA0028.jpg" alt="" loading="lazy">
             </div>
             <div class="col">
 <div id="details">
