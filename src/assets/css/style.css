@@ -54,6 +54,9 @@ img{
     object-fit: cover;
     object-position: center;
 }
+#about img{
+  padding: 0px;
+}
 
 /*Logo*/
 img[alt='logo']{
@@ -65,9 +68,16 @@ img[alt='logo']{
   display: grid;
   grid-template-rows: auto minmax(100dvh, 100%) auto;
 }
-
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* section */
 section {
   scroll-margin-block: 5rem;
 }
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Media Query*/
+@media screen and (width < 800px) { 
+  #landing .row{
+    display:block;
+    height: auto
+  }
+}
